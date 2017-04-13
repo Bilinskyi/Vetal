@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('icomoon.eot?jmzrcw');
+  src:  url('icomoon.eot?jmzrcw#iefix') format('embedded-opentype'),
+    url('icomoon.ttf?jmzrcw') format('truetype'),
+    url('icomoon.woff?jmzrcw') format('woff'),
+    url('icomoon.svg?jmzrcw#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-close:before {
+  content: "\e904";
+}
+.icon-clock:before {
+  content: "\e900";
+}
+.icon-envelope:before {
+  content: "\e901";
+}
+.icon-phone:before {
+  content: "\e902";
+}
+.icon-pointer:before {
+  content: "\e903";
+}

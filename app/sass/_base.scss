@@ -1,0 +1,77 @@
+/* _____ Basic elements _____ */
+
+::-webkit-input-placeholder {color: #939393;font-size: 14px;font-weight: 500;}
+::-moz-placeholder {color: #939393;font-size: 14px;font-weight: 500;}
+:-moz-placeholder {color: #939393;font-size: 14px;font-weight: 500;}
+:-ms-input-placeholder {color: #939393;font-size: 14px;font-weight: 500;}
+
+
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.center{text-align: center !important;}
+.text-l{text-align: left !important;}
+.text-r{text-align: right !important;}
+.clearfix:before, .clearfix:after {content: "";display: table;}
+.clearfix:after {clear: both;}
+.flow-hidden {overflow: hidden}
+.none {
+	display: none;
+}
+
+/* base */
+
+
+body {
+	background-color: #ddd;
+	position: relative; 
+	color: #000;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+}
+
+/* layout */
+
+
+
+
+ul {
+	margin: 0;
+	padding: 0;
+	li {
+		list-style-type: none;
+	}
+}
+
+h1,h2,h3,h4,h5,h6 {
+	line-height: 1;
+	font-weight: normal;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+

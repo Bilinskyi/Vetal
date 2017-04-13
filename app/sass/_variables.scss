@@ -1,0 +1,42 @@
+ // BOOTSTRAP
+ // $lg-bp-x2: 1500px;
+
+
+ $lg-bp: 1230px; 
+ // MIN-WIDTH
+ $lg-container: 1200px; 
+ // lg-CONTAINER
+
+ $md-bp: 992px; 
+ // MIN-WIDTH
+ $md-container: 970px;
+  // md-CONTAINER
+
+  $sm-bp: 768px; 
+ // MIN-WIDTH
+ $sm-container: 750px; 
+ // SM-CONTAINER
+
+ $min-l:    "only screen and (min-width : $lg-bp)";
+ $min-m:    "only screen and (min-width : $md-bp)";
+ $min-s:    "only screen and (min-width : $sm-bp)";
+
+ $bp-blarge:      "only screen and (max-width : $lg-bp-x2 - 1)";
+
+ $bp-large:      "only screen and (max-width : $lg-bp - 1)";
+ $bp-medium:     "only screen and (max-width : $md-bp - 1)";
+ $bp-small:      "only screen and (max-width : $sm-bp - 1)";
+
+ $bp-xsmall:    "only screen and (max-width : 479px)";
+  // BOOTSTRAP END
+
+
+  $maxlg: 1920px;
+  $bpmlg:      "only screen and (max-width : $maxlg )";
+  $normal: 14px;
+  $pp: 'Poppins', sans-serif;
+  $color1: #ffcd00;
+  $color1-h: #f1b30a;
+
+  $color2: #262b4b;
+  $color2-h: #2e496e;
